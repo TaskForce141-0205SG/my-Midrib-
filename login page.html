@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midrib - Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <meta name="google-signin-client_id" content="YOUR_GOOGLE_CLIENT_ID.apps.googleusercontent.com">
+</head>
+<body>
+    <div class="signup-container">
+        <div class="welcome-section">
+            <img src="WhatsApp Image 2024-07-28 at 6.28.33 PM.jpeg" alt="Tree Background" class="background-img">
+            <div class="welcome-text">
+
+                <h1>WELCOME TO MIDRIB</h1>
+                <img src="logo.png" alt="Midrib Logo">
+            </div>
+        </div>
+        <div class="signup-section">
+            <h2>Get Started Now!</h2>
+            <p>Create Your Account Here</p>
+            <div class="google-signup">
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                <div class="g-signin2" data-onsuccess="onSignIn"></div>
+                <button>Sign Up</button>
+            </div>
+            <form>
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email ID" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

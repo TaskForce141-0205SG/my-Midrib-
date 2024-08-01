@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midribs Order Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .header {
+            background-color: #c4e538;
+            padding: 20px;
+            text-align: left;
+        }
+        .header img {
+            height: 60px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .order-details, .order-summary {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .order-details {
+            width: 65%;
+        }
+        .order-summary {
+            width: 30%;
+            text-align: right;
+        }
+        .order-details h2, .order-summary h2 {
+            margin-top: 0;
+        }
+        .edit-link {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .order-summary p {
+            margin: 8px 0;
+        }
+        .order-summary .total {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .place-order-button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #ff5722;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .footer {
+            background-color: #c4e538;
+            padding: 10px;
+            text-align: center;
+            font-size: 12px;
+        }
+        .product-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .product-details img {
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="logo.png" alt="Midribs Logo">
+    </div>
+    <div class="container">
+        <div class="order-details">
+            <h2>Deliver to: ---------</h2>
+            <p>Address: Street no.1, Area, City, Country</p>
+            <a href="#" class="edit-link">Edit</a>
+            <p>Bill to the same address <a href="#" class="edit-link">Edit</a></p>
+            <p>Email to: name@gmail.com <a href="#" class="edit-link">Edit</a></p>
+            <div class="product-details">
+                <div>
+                    <h3>ROSE BOUQUET</h3>
+                    <p>Buy More & Save 15%</p>
+                </div>
+                <img src="11.png" alt="Rose Bouquet">
+            </div>
+            <p>Sub Total: 200</p>
+        </div>
+        <div class="order-summary">
+            <h2>Discount & Payments</h2>
+            <p>Promo Code: <input type="text"></p>
+            <h2>Order Summary:</h2>
+            <p>Items Total: Rs.200</p>
+            <p>Delivery Fees: Rs.0</p>
+            <p>Tax on Item: Rs.0</p>
+            <p>Discount: Rs.</p>
+            <p class="total">Total: Rs.200</p>
+            <a href="#" class="place-order-button">Place Order</a>
+            <p>Payment Method: <strong>Wallet: Rs.200/-</strong></p>
+        </div>
+    </div>
+    <div class="footer">
+        By placing your order you agree to Midribs Privacy Notice and conditions of use when order is placed, we'll send you an email message acknowledging receipt of your order. If you choose to pay using an electronic payment method (credit/debit card), you will be directed to your bank's website to complete your payment. Your contract to purchase an item will not be complete until we receive your electronic payment and dispatch your item. If you choose to pay using Pay on Delivery, you can pay using cash/card/net banking when you receive your item.
+    </div>
+</body>
+</html>

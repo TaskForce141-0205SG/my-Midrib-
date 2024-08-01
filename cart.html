@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="logo.png" alt="Logo" class="logo">
+            <div class="search-container">
+                <input type="text" class="search-bar" placeholder="Search">
+                <button class="search-button"><img src="search-icon.png" alt="Search"></button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="cart-container">
+            <div class="cart-header">
+                <input type="checkbox">
+                <span>Select All (000 Items)</span>
+            </div>
+            <div class="cart-items">
+                <div class="cart-item">
+                    <input type="checkbox">
+                    <img src="rose.png" alt="Bouquet Rose" class="item-image">
+                    <div class="item-details">
+                        <h3>BOUQUET(ROSE)</h3>
+                        <p>Brand: Nike</p>
+                    </div>
+                    <div class="item-price">
+                        <span class="current-price">Rs.350</span>
+                        <span class="original-price">Rs.2000</span>
+                        <span class="discount">-50%</span>
+                    </div>
+                    <div class="item-quantity">
+                        <button class="quantity-button">-</button>
+                        <span class="quantity">1</span>
+                        <button class="quantity-button">+</button>
+                    </div>
+                    <div class="item-actions">
+                        <button class="wishlist-button"><img src="wishlist-icon.png" alt="Wishlist"></button>
+                        <button class="delete-button"><img src="delete-icon.png" alt="Delete"></button>
+                    </div>
+                </div>
+                <!-- Repeat above cart-item div for each product in the cart -->
+            </div>
+            <div class="order-summary">
+                <h3>Order Summary</h3>
+                <p>Subtotal (0)</p>
+                <input type="text" placeholder="Enter Voucher Code">
+                <button class="apply-button">Apply</button>
+                <div class="total">
+                    <span>Total</span>
+                    <span class="total-price">Rs.0</span>
+                </div>
+                <button class="checkout-button">Proceed to Checkout</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
